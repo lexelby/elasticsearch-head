@@ -412,6 +412,7 @@ SPAN.jsonPretty-boolean { color: purple; }
 .clusterOverview-title {
 	font-weight: bold;
 	font-size: 140%;
+  white-space:nowrap;
 }
 .clusterOverview-routing {
 	position: relative;
