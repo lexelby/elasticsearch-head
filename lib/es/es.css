@@ -437,7 +437,8 @@ SPAN.jsonPretty-boolean { color: purple; }
 	border-color: transparent;
 }
 .clusterOverview-hasAlias {
-	text-align: center;
+	text-align: left;
+  display: inline-block;
 }
 .clusterOverview-hasAlias.max {
 	-webkit-border-top-right-radius: 8px;
@@ -459,6 +460,7 @@ SPAN.jsonPretty-boolean { color: purple; }
 	float: right;
 	font-weight: bold;
 	cursor: pointer;
+  padding-left: 10px;
 }
 .clusterOverview-replica.state-UNASSIGNED { background: #eeeeee; color: #999; border-color: #666; float: none; display: inline-block; }
 .clusterOverview-replica.state-INITIALIZING { background: #dddc88; }
